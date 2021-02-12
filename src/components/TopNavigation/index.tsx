@@ -5,6 +5,7 @@ import {
     Category,
     SNSLinks,
 } from './Atoms';
+import ColorToggleSwitch from './ColorToggleSwitch';
 import I_IMAGE from 'assets/images/i.png';
 
 const TopNavigation: React.FC = () => {
@@ -46,6 +47,9 @@ const TopNavigation: React.FC = () => {
                     </li>
                     <li>
                         <a>FB</a>
+                    </li>
+                    <li>
+                        <ColorToggleSwitch />
                     </li>
                 </SNSLinks>
             </TopNavigationContainer>
