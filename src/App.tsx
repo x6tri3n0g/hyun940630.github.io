@@ -1,9 +1,16 @@
 import React from 'react';
+import GlobalStyles from 'styles/GlobalStyles';
+import theme from 'styles/theme';
+import { ThemeProvider } from 'styles/theme-components';
+import Root from 'routes';
 
 const App: React.FC = () => {
     return (
         <>
-            <div>Hello, Im Hyun 😃</div>
+            <GlobalStyles />
+            <ThemeProvider theme={theme}>
+                <Root />
+            </ThemeProvider>
         </>
     );
 };
