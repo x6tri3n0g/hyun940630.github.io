@@ -1,13 +1,13 @@
 import React from 'react';
-import { PageWrapper } from 'components/Atoms';
+import { PageLayout } from 'components/Atoms';
 import Header from 'components/Home/Header';
 
 const Home: React.FC = () => {
     return (
-        <PageWrapper>
+        <PageLayout>
             <Header />
-            <h1>Home</h1>
-        </PageWrapper>
+            <h1>Contents</h1>
+        </PageLayout>
     );
 };
 

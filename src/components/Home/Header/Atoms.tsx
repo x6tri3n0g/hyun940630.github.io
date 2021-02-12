@@ -1,20 +1,28 @@
 import styled from 'styled-components';
 
 export const HeaderWrapper = styled.header`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
     height: 600px;
-    overflow: hidden;
     background-color: black;
 
-    h2 {
-        font-size: 20px;
-        font-weight: bold;
-        color: #ffffff;
-    }
+    span {
+        width: 50%;
 
-    p {
-        font-size: 13px;
-        font-weight: 300px;
-        color: #ffffff;
+        h1 {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        p {
+            max-width: 400px;
+            font-size: 13px;
+            font-weight: 300px;
+            color: #ffffff;
+            background-color: red;
+        }
     }
 `;
