@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 
 export const TopNavigationWrapper = styled.div`
-    position: fixed;
+    // TODO: 일정 스크롤 이후 fixed와 background: white
+    /* position: fixed; */
+    position: absolute;
+    top: 0;
     display: flex;
     align-items: center;
     width: 100%;
