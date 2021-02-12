@@ -8,7 +8,11 @@ import {
 import ColorToggleSwitch from './ColorToggleSwitch';
 import I_IMAGE from 'assets/images/i.png';
 
-const TopNavigation: React.FC = () => {
+interface ThemeModeProps {
+    themeMode: string;
+}
+
+const TopNavigation: React.FC = ({ toggleTheme }) => {
     return (
         <TopNavigationWrapper>
             <TopNavigationContainer>
@@ -49,7 +53,7 @@ const TopNavigation: React.FC = () => {
                         <a>FB</a>
                     </li>
                     <li>
-                        <ColorToggleSwitch />
+                        <ColorToggleSwitch toggleTheme={toggleTheme} />
                     </li>
                 </SNSLinks>
             </TopNavigationContainer>

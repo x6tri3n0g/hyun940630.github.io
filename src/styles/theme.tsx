@@ -50,6 +50,19 @@ const theme = {
     media,
 };
 
+export const light = {
+    colors: {
+        titleColor: '#ffffff',
+        bgColor: '#121212',
+    },
+};
+export const dark = {
+    colors: {
+        titleColor: '#121212',
+        bgColor: '#ffffff',
+    },
+};
+
 export type Theme = typeof theme;
 export const styled = baseStyled as ThemedStyledInterface<Theme>;
 export default theme;

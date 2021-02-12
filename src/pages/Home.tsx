@@ -6,7 +6,6 @@ const Home: React.FC = () => {
     return (
         <PageLayout>
             <Header />
-            <h1>Contents</h1>
         </PageLayout>
     );
 };

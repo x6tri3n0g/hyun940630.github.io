@@ -40,7 +40,12 @@ const AntSwitch = withStyles((theme: Theme) =>
     }),
 )(Switch);
 
-const ColorToggleSwitch = () => {
+interface ThemeModeProps {
+    themeMode: string;
+}
+
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
+const ColorToggleSwitch = ({ toggleTheme }: ThemeModeProps) => {
     const [state, setState] = React.useState({
         checkedA: true,
         checkedB: true,
@@ -48,6 +53,7 @@ const ColorToggleSwitch = () => {
     });
 
     const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+        toggleTheme(event.target.checked ? 'light' : 'dark');
         setState({ ...state, [event.target.name]: event.target.checked });
         console.log(event.target.checked);
     };

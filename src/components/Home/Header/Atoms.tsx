@@ -19,7 +19,7 @@ export const HeaderWrapper = styled.header`
             h1 {
                 font-size: 4rem;
                 font-weight: bold;
-                color: #ffffff;
+                color: ${(props) => props.theme.colors.titleColor};
                 line-height: 0.96;
                 margin-bottom: 24px;
             }
