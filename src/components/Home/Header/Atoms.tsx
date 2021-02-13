@@ -14,12 +14,14 @@ export const HeaderWrapper = styled.header`
         height: 100%;
         margin: 0 auto;
         span {
-            min-width: 48%;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
             padding: 16px;
             h1 {
                 font-size: 4rem;
                 font-weight: bold;
-                color: ${(props) => props.theme.colors.titleColor};
+                color: #ffffff;
                 line-height: 0.96;
                 margin-bottom: 24px;
             }
@@ -33,7 +35,6 @@ export const HeaderWrapper = styled.header`
 `;
 
 export const HeaderAnimationContents = styled.span`
-    width: 48%;
     height: 460px;
     background-color: gray;
 `;

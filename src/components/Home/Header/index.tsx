@@ -1,15 +1,12 @@
 import React from 'react';
-import { HeaderWrapper, HeaderAnimationContents } from './Atoms';
+import { HeaderWrapper } from './Atoms';
 
 const Header: React.FC = () => {
     return (
         <HeaderWrapper>
             <div>
                 <span>
-                    <h1>
-                        Anywhere you need a<br />
-                        Beautiful UX/UI.
-                    </h1>
+                    <h1>Anywhere you need a Beautiful UX/UI.</h1>
                     <p>
                         Hi 👋🏻 I&#39;m <strong>Hwang Hyun</strong>, a{' '}
                         <strong>Frontend Developer</strong> who likes to create
@@ -20,7 +17,10 @@ const Header: React.FC = () => {
                         of business and design.
                     </p>
                 </span>
-                <HeaderAnimationContents></HeaderAnimationContents>
+                <span>
+                    blank! 추후 여기에 기존에 작업한 이력들을 애니메이션으로
+                    보여줄 예정
+                </span>
             </div>
         </HeaderWrapper>
     );
