@@ -3,11 +3,10 @@ import HEADER_BACKGROUND_IMG from 'assets/images/header_background.svg';
 
 export const HeaderWrapper = styled.header`
     width: 100%;
-    /* width: 1920px; */
-    /* height: 100vh; */
     height: 1080px;
     overflow-x: hidden;
     margin: 0 auto;
+    background-color: #02092a;
     background-image: url(${HEADER_BACKGROUND_IMG});
     background-position: center;
     background-repeat: no-repeat;
