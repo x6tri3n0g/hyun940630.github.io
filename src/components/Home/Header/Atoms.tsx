@@ -3,15 +3,17 @@ import HEADER_BACKGROUND_IMG from 'assets/images/header_background.svg';
 
 export const HeaderWrapper = styled.header`
     z-index: 10;
-    width: 100%;
+    width: 100vw;
     height: 1080px;
     overflow-x: hidden;
-    margin: 0 auto;
     background-color: #02092a;
     background-image: url(${HEADER_BACKGROUND_IMG});
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 
     div {
         display: flex;

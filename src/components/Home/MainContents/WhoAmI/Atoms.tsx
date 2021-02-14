@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const WhoAmIWrapper = styled.div`
+    position: relative;
     width: 100%;
     height: 789px;
     /* background-color: #060f3a; */
@@ -8,7 +9,7 @@ export const WhoAmIWrapper = styled.div`
 
 export const LeftBlankBlock = styled.div`
     position: absolute;
-    top: 1080px;
+    top: 0;
     left: 0;
     width: 26.92vw;
     height: 789px;
