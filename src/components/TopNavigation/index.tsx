@@ -13,11 +13,9 @@ const TopNavigation: React.FC = () => {
         <TopNavigationWrapper>
             <TopNavigationContainer>
                 <Category>
-                    <li>
-                        <a onClick={() => alert("It's me!")}>
-                            <img src={I_IMAGE} alt="me" />
-                        </a>
-                    </li>
+                    <a onClick={() => alert("It's me!")}>
+                        <img src={I_IMAGE} alt="me" />
+                    </a>
                     <li>
                         <a>Who xtring?</a>
                     </li>

@@ -17,10 +17,10 @@ const Header: React.FC = () => {
                         of business and design.
                     </p>
                 </span>
-                <span>
-                    blank! 추후 여기에 기존에 작업한 이력들을 애니메이션으로
-                    보여줄 예정
-                </span>
+                {/* <span> */}
+                {/* blank! 추후 여기에 기존에 작업한 이력들을 애니메이션으로
+                    보여줄 예정 */}
+                {/* </span> */}
             </div>
         </HeaderWrapper>
     );

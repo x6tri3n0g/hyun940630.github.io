@@ -32,17 +32,25 @@ export const Category = styled.ul`
     max-width: 660px;
     width: 100%;
 
+    a {
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
     li {
         a {
             color: #ffffff;
             padding: 16px 0px;
-            img {
-                width: 40px;
-                height: 40px;
-            }
         }
         a:hover {
             color: gray;
+        }
+    }
+
+    @media only screen and (max-width: 1024px) {
+        li {
+            display: none;
         }
     }
 `;
@@ -67,5 +75,9 @@ export const SNSLinks = styled.ul`
         a:hover {
             color: gray;
         }
+    }
+
+    @media only screen and (max-width: 768px) {
+        display: none;
     }
 `;
