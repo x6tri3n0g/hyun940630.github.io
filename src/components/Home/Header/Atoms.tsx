@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import HEADER_BACKGROUND_IMG from 'assets/images/header_background.svg';
 
 export const HeaderWrapper = styled.header`
+    z-index: 10;
     width: 100%;
     height: 1080px;
     overflow-x: hidden;

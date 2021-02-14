@@ -5,6 +5,9 @@ import {
     IAmWrapper,
     MyImage,
     MYDes,
+    WhoAmIFigureWrapper,
+    WhoAmIFigureCircle,
+    WhoAmIFigureVerticalLine,
 } from './Atoms';
 
 import MY_FACE_IMG from 'assets/images/my_face.png';
@@ -34,6 +37,10 @@ const WhoAmI: React.FC = () => {
                         combination of business and design.
                     </p>
                 </MYDes>
+                <WhoAmIFigureWrapper>
+                    <WhoAmIFigureCircle />
+                    <WhoAmIFigureVerticalLine />
+                </WhoAmIFigureWrapper>
             </IAmWrapper>
         </WhoAmIWrapper>
     );
