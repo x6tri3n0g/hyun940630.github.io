@@ -4,6 +4,7 @@ import { MainContentsWrapper } from 'components/Home/MainContents/Atoms';
 import Header from 'components/Home/Header';
 import WhoAmI from 'components/Home/MainContents/WhoAmI';
 import Skills from 'components/Home/MainContents/Skills';
+import Experience from 'components/Home/MainContents/Experience';
 
 const Home: React.FC = () => {
     return (
@@ -12,6 +13,7 @@ const Home: React.FC = () => {
             <MainContentsWrapper>
                 <WhoAmI />
                 <Skills />
+                <Experience />
             </MainContentsWrapper>
         </PageLayout>
     );
