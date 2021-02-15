@@ -4,7 +4,6 @@ export const WhoAmIWrapper = styled.div`
     position: relative;
     width: 100%;
     height: 789px;
-    /* background-color: #060f3a; */
 `;
 
 export const LeftBlankBlock = styled.div`
