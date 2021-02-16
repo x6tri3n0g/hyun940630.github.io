@@ -3,8 +3,8 @@ import {
     ExperienceWrapper,
     ExperienceCardWrapper,
     ExperienceBackground,
+    ExperienceContent,
 } from './Atoms';
-import EXPERIENCE_BACKGROUND from 'assets/images/experience_background.svg';
 
 const Experience: React.FC = () => {
     return (
@@ -16,8 +16,8 @@ const Experience: React.FC = () => {
                     <li>석세스모드 SUCCESSMODE</li>
                     <li>네오플랫neoflat</li>
                 </ul>
-                <ExperienceCardWrapper>
-                    {/* <img src={EXPERIENCE_BACKGROUND} alt="" /> */}
+                <ExperienceContent>
+                    <img src="#" alt="#" />
                     <span>
                         <h1>Project</h1>
                         <p>
@@ -28,7 +28,7 @@ const Experience: React.FC = () => {
                             the optimal combination of business and design.
                         </p>
                     </span>
-                </ExperienceCardWrapper>
+                </ExperienceContent>
             </ExperienceCardWrapper>
         </ExperienceWrapper>
     );

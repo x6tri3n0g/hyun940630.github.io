@@ -26,19 +26,47 @@ export const ExperienceCardWrapper = styled.div`
     background-color: #060f3a;
     border-top-left-radius: 50px;
     ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 60px 108px;
         li {
+            font-size: 24px;
+            color: #8193b2;
+            padding: 18px 10px;
+            margin-right: 14px;
+        }
+        li:hover {
+            color: #f6f6f6;
+            border-bottom: 1px solid #f6f6f6;
         }
     }
-    div {
-        img {
-            width: 522px;
-            height: 476px;
+`;
+
+export const ExperienceContent = styled.div`
+    display: flex;
+    flex-direction: row;
+    img {
+        width: 522px;
+        height: 476px;
+        background-color: #8193b2;
+        border-radius: 8px;
+        margin-left: 108px;
+        margin-right: 128px;
+    }
+    span {
+        width: 460px;
+        h1 {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 28px;
+            color: #f6f6f6;
         }
-        span {
-            h1 {
-            }
-            p {
-            }
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            color: #8193b2;
         }
     }
 `;
