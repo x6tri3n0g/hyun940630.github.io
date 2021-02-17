@@ -8,6 +8,7 @@ export const PortfolioWrapper = styled.div`
     width: 1280px;
     height: 858px;
     margin: 0 auto;
+    border-right: 1px solid #060f3a;
 `;
 
 export const PortfolioHeader = styled.div`
@@ -76,8 +77,6 @@ export const PoltfolioArticleWrapper = styled.div`
             margin-top: 12px;
             padding-bottom: 48px;
         }
-        p:first-child(1) {
-        }
         ul {
             li {
                 display: flex;
@@ -106,5 +105,6 @@ export const PoltfolioArticleWrapper = styled.div`
         height: 100%;
         background-color: #8193b2;
         border-radius: 10px;
+        margin-right: 10%;
     }
 `;
