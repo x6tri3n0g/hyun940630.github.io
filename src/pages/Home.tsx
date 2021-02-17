@@ -6,6 +6,7 @@ import WhoAmI from 'components/Home/MainContents/WhoAmI';
 import Skills from 'components/Home/MainContents/Skills';
 import Experience from 'components/Home/MainContents/Experience';
 import Portfolio from 'components/Home/MainContents/Portfolio';
+import Interest from 'components/Home/MainContents/Interest';
 
 const Home: React.FC = () => {
     return (
@@ -16,6 +17,7 @@ const Home: React.FC = () => {
                 <Skills />
                 <Experience />
                 <Portfolio />
+                <Interest />
             </MainContentsWrapper>
         </PageLayout>
     );
