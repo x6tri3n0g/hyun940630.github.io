@@ -13,8 +13,8 @@ const Experience: React.FC = () => {
             <ExperienceCardWrapper>
                 <ul>
                     <li>원광대학교 컴퓨터공학과</li>
-                    <li>석세스모드 SUCCESSMODE</li>
-                    <li>네오플랫neoflat</li>
+                    <li>석세스모드</li>
+                    <li>네오플랫</li>
                 </ul>
                 <ExperienceContent>
                     <img src="#" alt="#" />

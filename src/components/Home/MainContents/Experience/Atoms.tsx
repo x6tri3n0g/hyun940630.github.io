@@ -61,6 +61,7 @@ export const ExperienceContent = styled.div`
             font-weight: 500;
             line-height: 28px;
             color: #f6f6f6;
+            margin-bottom: 24px;
         }
         p {
             font-size: 16px;
