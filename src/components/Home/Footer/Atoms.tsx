@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const FooterWrapper = styled.div`
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 148px;
 

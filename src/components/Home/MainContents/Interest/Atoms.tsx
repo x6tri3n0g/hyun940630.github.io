@@ -15,7 +15,7 @@ export const InterestBackground = styled.div`
     height: 350px;
     border-top-left-radius: 50px;
     background-color: #060f3a;
-    z-index: 1;
+    z-index: -1;
 `;
 
 export const InterestContent = styled.div`
@@ -23,6 +23,7 @@ export const InterestContent = styled.div`
     height: 100%;
     margin: 0 auto;
     z-index: 10;
+    border-right: 1px solid #060f3a;
     h1 {
         display: flex;
         flex-direction: column;
@@ -48,9 +49,11 @@ export const InterestContent = styled.div`
         color: #8193b2;
         margin-top: 30px;
     }
-    div {
-        background-color: #8193b2;
-        height: 280px;
-        margin-top: 20px;
-    }
+`;
+
+export const InterestGallery = styled.div`
+    background-color: #8193b2;
+    width: 100%;
+    height: 380px;
+    margin-top: 20px;
 `;
