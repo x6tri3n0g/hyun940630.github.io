@@ -1,13 +1,24 @@
 import React from 'react';
-import { InterestWrapper } from './Atoms';
+import { InterestWrapper, InterestBackground, InterestContent } from './Atoms';
 
-const Interest = () => {
+const Interest: React.FC = () => {
     return (
         <InterestWrapper>
-            <h1>Interest</h1>
-            <hr />
-            <p>InterestWrapper</p>
-            <span>이미지 슬라이드</span>
+            <InterestBackground>
+                <InterestContent>
+                    <h1>
+                        Interest
+                        <span />
+                    </h1>
+                    <p>
+                        Hi 👋🏻 Im Hwang Hyun, a Frontend Developer who likes to
+                        create. Beautiful UX/UI is needed for any service and
+                        can be entertaining for I am always in this thought and
+                        worry.
+                    </p>
+                    <div>이미지 슬라이드</div>
+                </InterestContent>
+            </InterestBackground>
         </InterestWrapper>
     );
 };
