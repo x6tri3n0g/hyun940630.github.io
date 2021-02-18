@@ -7,6 +7,7 @@ import Skills from 'components/Home/MainContents/Skills';
 import Experience from 'components/Home/MainContents/Experience';
 import Portfolio from 'components/Home/MainContents/Portfolio';
 import Interest from 'components/Home/MainContents/Interest';
+import Footer from 'components/Home/Footer';
 
 const Home: React.FC = () => {
     return (
@@ -18,6 +19,7 @@ const Home: React.FC = () => {
                 <Experience />
                 <Portfolio />
                 <Interest />
+                <Footer />
             </MainContentsWrapper>
         </PageLayout>
     );
