@@ -41,7 +41,7 @@ export const InterestContent = styled.div`
         }
     }
     p {
-        z-index: 100;
+        z-index: 99;
         width: 59%;
         font-size: 16px;
         font-weight: 400;
