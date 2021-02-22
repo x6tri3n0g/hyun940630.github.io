@@ -8,7 +8,7 @@ import {
 import ColorToggleSwitch from './ColorToggleSwitch';
 import I_IMAGE from 'assets/images/i.png';
 
-const TopNavigation: React.FC = ({ toggleTheme }) => {
+const TopNavigation: React.FC = () => {
     return (
         <TopNavigationWrapper>
             <TopNavigationContainer>
@@ -47,7 +47,7 @@ const TopNavigation: React.FC = ({ toggleTheme }) => {
                         <a>FB</a>
                     </li>
                     <li>
-                        <ColorToggleSwitch toggleTheme={toggleTheme} />
+                        <ColorToggleSwitch />
                     </li>
                 </SNSLinks>
             </TopNavigationContainer>

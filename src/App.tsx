@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import GlobalStyles from 'styles/GlobalStyles';
-// import { light, dark } from 'styles/theme';
+import { GlobalStyles } from 'styles/GlobalStyles';
+import { lightTheme, darkTheme } from 'styles/theme';
 // import theme from 'styles/theme';
 import { ThemeProvider } from 'styles/theme-components';
 import Root from 'routes';
@@ -32,16 +32,23 @@ const useDarkMode = () => {
 };
 
 const App: React.FC = () => {
-    const [theme, toggleTheme] = useDarkMode();
-    const themeMode = theme === 'light' ? lightTheme : darkTheme;
+    // const [theme, toggleTheme] = useDarkMode();
+    // const themeMode = theme === 'light' ? lightTheme : darkTheme;
+    const [theme, setTheme] = useState('light');
+
+    const toggleTheme = () => {
+        if (theme === 'light') {
+            setTheme('dart');
+        } else {
+            setTheme('light');
+        }
+    };
 
     return (
-        <>
+        <ThemeProvider theme={lightTheme}>
             <GlobalStyles />
-            <ThemeProvider theme={themeMode}>
-                <Root toggleTheme={toggleTheme} />
-            </ThemeProvider>
-        </>
+            <Root />
+        </ThemeProvider>
     );
 };
 
