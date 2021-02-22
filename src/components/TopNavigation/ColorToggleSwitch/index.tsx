@@ -40,7 +40,7 @@ const AntSwitch = withStyles((theme: Theme) =>
     }),
 )(Switch);
 
-const ColorToggleSwitch = () => {
+const ColorToggleSwitch = ({ toggleTheme }) => {
     const [state, setState] = React.useState({
         checkedA: true,
         checkedB: true,
@@ -59,6 +59,7 @@ const ColorToggleSwitch = () => {
                     <AntSwitch
                         checked={state.checkedC}
                         onChange={handleChange}
+                        onClick={toggleTheme}
                         name="checkedC"
                     />
                 </Grid>
