@@ -40,7 +40,7 @@ const AntSwitch = withStyles((theme: Theme) =>
     }),
 )(Switch);
 
-const ColorToggleSwitch = () => {
+const ColorToggleSwitch: React.FC = () => {
     const [state, setState] = React.useState({
         checkedA: true,
         checkedB: true,
