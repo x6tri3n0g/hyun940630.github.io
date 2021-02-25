@@ -8,7 +8,5 @@ declare module 'styled-components' {
             main: string;
             sub: string;
         };
-
-        className: string | boolean;
     }
 }

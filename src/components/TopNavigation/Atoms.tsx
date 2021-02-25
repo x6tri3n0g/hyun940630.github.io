@@ -10,7 +10,7 @@ export const TopNavigationWrapper = styled.header`
     width: 100%;
     height: 56px;
     padding: 8px 0px;
-    background-color: #ffffff00;
+    background-color: transparent;
     transition: 0.2s ease-in-out;
     z-index: 100;
 `;

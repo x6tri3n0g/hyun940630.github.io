@@ -1,18 +1,30 @@
-import React, { useState } from 'react';
-import GlobalStyles from 'styles/GlobalStyles';
-import theme from 'styles/theme';
-import { ThemeProvider } from 'styles/theme-components';
+import React from 'react';
+import styled from 'styled-components';
 import Root from 'routes';
 
-const App: React.FC = () => {
+type activeType = {
+    active: boolean;
+};
+
+const App = () => {
     return (
-        <>
-            <GlobalStyles />
-            <ThemeProvider theme={theme}>
-                <Root />
-            </ThemeProvider>
-        </>
+        <CustomContainer active>
+            <Root />
+        </CustomContainer>
     );
 };
+
+const CustomContainer = styled.div<activeType>`
+    background: ${(props) => {
+        return props.theme.color.main;
+    }};
+
+    color: ${(props) => {
+        if (props.active) {
+            return 'white';
+        }
+        return '#eee';
+    }};
+`;
 
 export default App;
