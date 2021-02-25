@@ -12,20 +12,18 @@ import Footer from 'components/Home/Footer';
 
 const Home: React.FC = () => {
     return (
-        <>
+        <PageLayout>
             <TopNavigation />
-            <PageLayout>
-                <Header />
-                <MainContentsWrapper>
-                    <WhoAmI />
-                    <Skills />
-                    <Experience />
-                    <Portfolio />
-                    <Interest />
-                    <Footer />
-                </MainContentsWrapper>
-            </PageLayout>
-        </>
+            <Header />
+            <MainContentsWrapper>
+                <WhoAmI />
+                <Skills />
+                <Experience />
+                <Portfolio />
+                <Interest />
+                <Footer />
+            </MainContentsWrapper>
+        </PageLayout>
     );
 };
 
