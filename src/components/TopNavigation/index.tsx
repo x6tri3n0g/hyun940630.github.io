@@ -9,26 +9,8 @@ import ColorToggleSwitch from './ColorToggleSwitch';
 import I_IMAGE from 'assets/images/i.png';
 
 const TopNavigation: React.FC = ({}) => {
-    const [hide, setHide] = useState(false);
-    const [pageY, setPageY] = useState(0);
-    const documentRef = useRef(document);
-
-    const handleScroll = () => {
-        const { pageYOffset } = window;
-        const deltaY = pageYOffset - pageY;
-        const hide = pageYOffset !== 0 && deltaY >= 0;
-        setHide(hide);
-        setPageY(pageYOffset);
-    };
-
-    useEffect(() => {
-        documentRef.current.addEventListener('scroll', handleScroll);
-        return () =>
-            documentRef.current.removeEventListener('scroll', handleScroll);
-    }, [pageY]);
-
     return (
-        <TopNavigationWrapper className={hide && 'hide'}>
+        <TopNavigationWrapper>
             <TopNavigationContainer>
                 <Category>
                     <a onClick={() => alert("It's me!")}>

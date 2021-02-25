@@ -1,10 +1,6 @@
 import styled from 'styled-components';
 
-interface TopNavigationWrapperProps {
-    className: { className: string };
-}
-
-export const TopNavigationWrapper: TopNavigationWrapperProps = styled.header`
+export const TopNavigationWrapper = styled.header`
     // TODO: 일정 스크롤 이후 fixed와 background: white
     position: fixed;
     top: 0;
@@ -15,11 +11,8 @@ export const TopNavigationWrapper: TopNavigationWrapperProps = styled.header`
     height: 56px;
     padding: 8px 0px;
     background-color: #ffffff00;
-    transition: top 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
     z-index: 100;
-    &.hide {
-        transform: translateY(-56px);
-    }
 `;
 
 export const TopNavigationContainer = styled.div`
