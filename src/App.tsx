@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import Root from 'routes';
+import Home from 'pages/Home';
+import TopNavigation from 'components/TopNavigation';
 
 type activeType = {
     active: boolean;
@@ -9,7 +11,8 @@ type activeType = {
 const App = () => {
     return (
         <CustomContainer active>
-            <Root />
+            <TopNavigation />
+            <Home />
         </CustomContainer>
     );
 };
