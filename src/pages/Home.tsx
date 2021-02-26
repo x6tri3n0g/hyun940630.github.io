@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC, PropsWithChildren } from 'react';
 import { PageLayout } from 'components/Atoms';
 import { MainContentsWrapper } from 'components/Home/MainContents/Atoms';
 import TopNavigation from 'components/TopNavigation';
@@ -10,9 +10,13 @@ import Portfolio from 'components/Home/MainContents/Portfolio';
 import Interest from 'components/Home/MainContents/Interest';
 import Footer from 'components/Home/Footer';
 
-const Home: React.FC = () => {
+interface HomeProps {
+    mode: string;
+}
+
+const Home: React.FC<HomeProps> = ({ mode = 'light' }): React.ReactElement => {
     return (
-        <PageLayout>
+        <PageLayout mode={mode}>
             <TopNavigation />
             <Header />
             <MainContentsWrapper>

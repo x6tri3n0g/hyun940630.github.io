@@ -1,25 +1,7 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import React from 'react';
 import { HeaderWrapper } from './Atoms';
 
 const Header: React.FC = () => {
-    const [isScroll, setIsScroll] = useState(false);
-
-    const handleScroll = useCallback(() => {
-        if (window.pageYOffset > 0) {
-            setIsScroll(true);
-        }
-        if (window.pageYOffset === 0) {
-            setIsScroll(false);
-        }
-    }, []);
-
-    useEffect(() => {
-        window.addEventListener('mousewheel', handleScroll);
-        return () => {
-            window.removeEventListener('mousewheel', handleScroll);
-        };
-    }, [handleScroll]);
-
     return (
         <HeaderWrapper>
             <div>

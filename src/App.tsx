@@ -1,33 +1,19 @@
-import React from 'react';
-import styled from 'styled-components';
-import Root from 'routes';
+import React, { useState } from 'react';
 import Home from 'pages/Home';
-import TopNavigation from 'components/TopNavigation';
 
-type activeType = {
-    active: boolean;
+const App: React.FC = () => {
+    // const [mode, setMode] = useState('light');
+
+    const mode = 'light';
+    // const toggleMode = () => {
+    //     if (mode === 'light') {
+    //         setMode('dark');
+    //     } else {
+    //         setMode('light');
+    //     }
+    // };
+
+    return <Home mode={mode} />;
 };
-
-const App = () => {
-    return (
-        <CustomContainer active>
-            <TopNavigation />
-            <Home />
-        </CustomContainer>
-    );
-};
-
-const CustomContainer = styled.div<activeType>`
-    background: ${(props) => {
-        return props.theme.color.main;
-    }};
-
-    color: ${(props) => {
-        if (props.active) {
-            return 'white';
-        }
-        return '#eee';
-    }};
-`;
 
 export default App;

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React from 'react';
 import {
     TopNavigationWrapper,
     TopNavigationContainer,
@@ -8,7 +8,7 @@ import {
 import ColorToggleSwitch from './ColorToggleSwitch';
 import I_IMAGE from 'assets/images/i.png';
 
-const TopNavigation: React.FC = ({}) => {
+const TopNavigation: React.FC = () => {
     return (
         <TopNavigationWrapper>
             <TopNavigationContainer>
