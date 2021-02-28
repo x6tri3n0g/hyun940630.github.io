@@ -14,7 +14,7 @@ interface HomeProps {
     mode: string;
 }
 
-const Home: React.FC<HomeProps> = ({ mode = 'light' }): React.ReactElement => {
+const Home: React.FC<HomeProps> = ({ mode }): React.ReactElement => {
     return (
         <PageLayout mode={mode}>
             <TopNavigation />
