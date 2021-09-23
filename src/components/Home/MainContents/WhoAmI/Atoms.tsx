@@ -72,11 +72,17 @@ export const MYDes = styled.div`
         margin-bottom: 30px;
     }
     p {
-        width: 485px;
+        width: 486px;
         font-size: 1.2rem;
         font-weight: 400;
-        line-height: 2rem;
+        line-height: 2.3rem;
         color: #8193b2;
+
+        small {
+            font-size: 0.8rem;
+            font-weight: 400;
+            color: #8193b2aa;
+        }
     }
 `;
 

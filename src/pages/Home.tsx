@@ -1,4 +1,4 @@
-import React, { FC, PropsWithChildren } from 'react';
+import React from 'react';
 import { PageLayout } from 'components/Atoms';
 import { MainContentsWrapper } from 'components/Home/MainContents/Atoms';
 import TopNavigation from 'components/TopNavigation';
@@ -14,7 +14,7 @@ interface HomeProps {
     mode: string;
 }
 
-const Home: React.FC<HomeProps> = ({ mode }) => {
+const Home: React.FC<HomeProps> = ({ mode }: HomeProps) => {
     return (
         <PageLayout mode={mode}>
             <TopNavigation />

@@ -17,17 +17,18 @@ export const HeaderWrapper = styled.header`
 
     div {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
         width: 1280px;
         height: 100%;
         margin: 0 auto;
+
         span {
             display: flex;
             flex-direction: column;
-            /* flex: 1; */
-            width: 589px;
+            width: 600px;
             padding: 16px;
+
             h1 {
                 font-size: 4rem;
                 font-weight: bold;
@@ -38,7 +39,7 @@ export const HeaderWrapper = styled.header`
             p {
                 font-size: 1.5rem;
                 color: #8193b2;
-                line-height: 2.5rem;
+                line-height: 2.8rem;
             }
         }
     }

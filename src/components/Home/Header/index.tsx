@@ -8,13 +8,10 @@ const Header: React.FC = () => {
                 <span>
                     <h1>Anywhere you need a Beautiful UX/UI.</h1>
                     <p>
-                        Hi 👋🏻 I&#39;m <strong>Hwang Hyun</strong>, a{' '}
-                        <strong>Frontend Developer</strong> who likes to create
-                        <strong>Beautiful UX/UI</strong>. Beautiful UX/UI is
-                        needed for any service and can be entertaining for
-                        anyone. I am always in this thought and worry. We want
-                        to create the best service with the optimal combination
-                        of business and design.
+                        사람들은 아름다운 UX/UI에 관심을 가지고 사용하는 것을
+                        좋아합니다. Front-end 개발자로서 사용자가 서비스를 더욱
+                        즐겁고 효율적으로 사용할 수 있도록 만드는 것이 목적이자
+                        목표입니다.
                     </p>
                 </span>
                 {/* <span> */}

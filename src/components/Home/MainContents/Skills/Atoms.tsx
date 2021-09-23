@@ -24,7 +24,7 @@ export const SkillsCategory = styled.span`
     align-items: center;
     width: 104px;
     height: 100%;
-    margin-right: 114px;
+    margin-right: 94px;
     div {
         height: 400px;
         h1 {
@@ -58,38 +58,76 @@ export const SkillsCategory = styled.span`
     }
 `;
 
+export const SkillSliderWrapper = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    ::-webkit-scrollbar {
+        display: none;
+    }
+`;
+
 export const SkillsCardWrapper = styled.span`
     display: flex;
-    /* flex: 1; */
     flex-direction: column;
     width: 100%;
     max-width: 1064px;
-    height: 400px;
+    height: 552px;
     z-index: 10;
     background-color: #060f3a;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
+    margin-right: 40px;
 
     p {
+        padding-left: 40px;
+        padding-right: 40px;
         width: 804px;
         margin-top: 4px;
-        padding-left: 40px;
         font-size: 1.143rem;
         color: #8193b2;
         line-height: 2rem;
+        ul {
+            li {
+                :first-child {
+                    color: #ffffff;
+                }
+
+                line-height: 2rem;
+                margin-bottom: 4px;
+            }
+        }
     }
 `;
 
 export const SkillsTagWrapper = styled.ul`
     display: flex;
     flex-direction: row;
-    margin: 40px;
+    align-items: center;
+    margin: 40px 0 20px;
+
+    h2 {
+        color: #ffffff;
+        margin-right: 24px;
+    }
 
     li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 60px;
         height: 60px;
         border-radius: 30px;
-        background-color: #8193b2;
+        background-color: #8193b260;
         margin-right: 14px;
+        overflow: hidden;
+
+        img {
+            width: 60px;
+            height: auto;
+        }
     }
 `;
