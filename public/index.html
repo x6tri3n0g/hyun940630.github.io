@@ -13,4 +13,28 @@
     <body>
         <div id="root"></div>
     </body>
+    <script>
+        var uAgent = navigator.userAgent.toLowerCase();
+        var mobilePhones = new Array(
+            'iphone',
+            'ipod',
+            'ipad',
+            'android',
+            'blackberry',
+            'windows ce',
+            'nokia',
+            'webos',
+            'opera mini',
+            'sonyericsson',
+            'opera mobi',
+            'iemobile',
+        );
+        for (var i = 0; i < mobilePhones.length; i++) {
+            if (uAgent.indexOf(mobilePhones[i]) != -1) {
+                alert(
+                    '이 페이지는 PC에서만 확인이 가능합니다!\nThis page is only available on PC!',
+                );
+            }
+        }
+    </script>
 </html>
