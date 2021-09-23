@@ -2,7 +2,7 @@ import React from 'react';
 import {
     PortfolioWrapper,
     PortfolioHeader,
-    PoltfolioArticleWrapper,
+    PortfolioArticleWrapper,
 } from './Atoms';
 
 const Portfolio: React.FC = () => {
@@ -18,7 +18,7 @@ const Portfolio: React.FC = () => {
                     <li>5</li>
                 </ul>
             </PortfolioHeader>
-            <PoltfolioArticleWrapper>
+            <PortfolioArticleWrapper>
                 <div>
                     <h2>Introduce(제목을쓸까? 🧐)</h2>
                     <p>
@@ -48,7 +48,7 @@ const Portfolio: React.FC = () => {
                     </ul>
                 </div>
                 <img src="#" alt="production_img" />
-            </PoltfolioArticleWrapper>
+            </PortfolioArticleWrapper>
         </PortfolioWrapper>
     );
 };

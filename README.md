@@ -1,8 +1,8 @@
-# 🚀 xtring's Poltfolio
+# 🚀 xtring's Portfolio
 
 **⚠️ 현재 공사중**
 
-> [Go Poltfolio](https://hyun940630.github.io)
+> [Go Portfolio](https://hyun940630.github.io)
 
 <br />
 <br />

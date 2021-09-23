@@ -54,7 +54,7 @@ export const PortfolioHeader = styled.div`
     }
 `;
 
-export const PoltfolioArticleWrapper = styled.div`
+export const PortfolioArticleWrapper = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
