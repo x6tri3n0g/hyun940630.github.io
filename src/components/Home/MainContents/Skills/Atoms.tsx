@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const SkillsWrapper = styled.div`
     width: 100%;
-    height: 680px;
+    /* height: 680px; */
+    height: auto;
     border-top: 1px solid #0f1c57;
 `;
 
@@ -38,29 +39,13 @@ export const SkillsCategory = styled.span`
             height: 1px;
             border: 1px solid #ffffff;
         }
-        ul {
-            width: 100%;
-            height: 400px;
-            margin-top: 20px;
-            li {
-                color: #8193b2;
-                margin-bottom: 6px;
-                a {
-                    font-weight: 500;
-                    line-height: 2rem;
-                    padding: 4px 0px;
-                }
-                a:hover {
-                    color: #ffffff;
-                }
-            }
-        }
     }
 `;
 
 export const SkillSliderWrapper = styled.div`
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
+    flex-direction: column;
     align-items: center;
     overflow: auto;
     -ms-overflow-style: none;
@@ -74,13 +59,15 @@ export const SkillsCardWrapper = styled.span`
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 1064px;
-    height: 552px;
+    /* max-width: 1064px; */
+    /* height: 552px; */
+    height: auto;
     z-index: 10;
     background-color: #060f3a;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
-    margin-right: 40px;
+    /* margin-right: 40px; */
+    margin-bottom: 40px;
 
     p {
         padding-left: 40px;

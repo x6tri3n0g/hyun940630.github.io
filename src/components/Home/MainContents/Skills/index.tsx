@@ -10,7 +10,7 @@ import {
 
 const Skills: React.FC = () => {
     return (
-        <SkillsWrapper>
+        <SkillsWrapper id="skills">
             <SkillsContents>
                 <SkillsCategory>
                     <div>

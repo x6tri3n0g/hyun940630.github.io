@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './globalStyle.css';
 import Home from 'pages/Home';
 
 const App: React.FC = () => {

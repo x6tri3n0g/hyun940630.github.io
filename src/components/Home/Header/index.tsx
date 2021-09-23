@@ -3,7 +3,7 @@ import { HeaderWrapper } from './Atoms';
 
 const Header: React.FC = () => {
     return (
-        <HeaderWrapper>
+        <HeaderWrapper id="#">
             <div>
                 <span>
                     <h1>Anywhere you need a Beautiful UX/UI.</h1>

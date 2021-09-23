@@ -14,7 +14,7 @@ import MY_FACE_IMG from 'assets/images/my_face.png';
 
 const WhoAmI: React.FC = () => {
     return (
-        <WhoAmIWrapper>
+        <WhoAmIWrapper id="who">
             <LeftBlankBlock />
             <IAmWrapper>
                 <MyImage>

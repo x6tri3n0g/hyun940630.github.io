@@ -7,6 +7,8 @@ interface PageLayoutProps {
 export const PageLayout = styled.div<PageLayoutProps>`
     width: 100vw;
     height: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
     background-color: ${(props) => {
         if (props.mode === 'light') {
             return '#FFFFFF';
