@@ -3,7 +3,7 @@ import HEADER_BACKGROUND_IMG from 'assets/images/header_background.svg';
 
 export const HeaderWrapper = styled.header`
     z-index: 10;
-    width: 100vw;
+    width: 100%;
     height: 1080px;
     overflow-x: hidden;
     background-color: #02092a;
@@ -19,7 +19,7 @@ export const HeaderWrapper = styled.header`
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        width: 1280px;
+        width: 1080px;
         height: 100%;
         margin: 0 auto;
 

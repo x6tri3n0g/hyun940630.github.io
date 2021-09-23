@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import EXPERIENCE_BACKGROUND from 'assets/images/experience_background.svg';
 
 export const ExperienceWrapper = styled.div`
     position: relative;
@@ -7,16 +6,27 @@ export const ExperienceWrapper = styled.div`
     /* height: 1100px; */
     height: auto;
     background-color: #02092a;
+    border-top: 1px solid #0f1c57;
+`;
+
+export const ExperienceHeader = styled.div`
+    width: 104px;
+    h1 {
+        font-size: 2.3rem;
+        font-weight: 700;
+        color: #f6f6f6;
+        line-height: 4.286rem;
+    }
+    div {
+        width: 100%;
+        height: 1px;
+        border: 1px solid #ffffff;
+    }
 `;
 
 export const ExperienceBackground = styled.div`
     width: 100%;
-    /* height: 870px; */
-    background-image: url(${EXPERIENCE_BACKGROUND});
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    background-color: #02092a;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -24,65 +34,65 @@ export const ExperienceBackground = styled.div`
 `;
 
 export const ExperienceCardWrapper = styled.div`
-    /* position: absolute; */
-    /* right: 0; */
-    /* bottom: 0; */
     width: 83.33%;
-    /* height: 836px; */
     height: auto;
     background-color: #060f3a;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
+    padding: 40px 60px;
     margin-bottom: 40px;
+`;
 
-    :first-child {
-        margin-top: 40px;
+export const ExperienceCardHeader = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+    img {
+        width: 260px;
+        height: auto;
+        padding: 16px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        margin-right: 60px;
     }
 
-    h2 {
-        margin: 40px 108px;
-        color: #f6f6f6;
+    div {
+        h2 {
+            color: #ffffff;
+        }
+        h3 {
+            color: #f6f6f6;
+        }
     }
 `;
 
 export const ExperienceContent = styled.div`
     display: flex;
     flex-direction: row;
-    margin-bottom: 60px;
-
-    img {
-        width: 260px;
-        /* height: auto; */
-        padding: 16px;
-        background-color: #ffffff;
-        border-radius: 8px;
-        margin-left: 108px;
-    }
+    margin: 40px;
 
     span {
         display: flex;
         flex-direction: column;
-        width: 804px;
+        width: 580px;
         height: auto;
-        margin-left: 108px;
-
-        h1 {
-            font-size: 18px;
-            font-weight: 500;
-            line-height: 28px;
-            color: #8193b2;
-            margin-top: 12px;
-            margin-bottom: 12px;
-        }
 
         h3 {
             font-weight: 600;
             color: #f6f6f6;
+            margin-top: 60px;
 
             :hover {
                 font-weight: 800;
                 color: #ffffff;
             }
+        }
+        span {
+            font-size: 12px;
+            color: #f6f6f6;
         }
 
         ul {
@@ -93,9 +103,31 @@ export const ExperienceContent = styled.div`
             li {
                 margin-top: 4px;
                 font-size: 1.143rem;
-                color: #8193b2;
+                color: #a1a3c2;
                 line-height: 2rem;
                 margin-bottom: 4px;
+            }
+        }
+
+        > img {
+            width: 580px;
+            height: auto;
+            margin-left: 40px;
+            margin-bottom: 20px;
+        }
+
+        div {
+            display: flex;
+            flex-direction: row;
+            width: 580px;
+            height: auto;
+            margin-left: 40px;
+            margin-bottom: 20px;
+
+            > img {
+                display: flex;
+                width: 32%;
+                margin-right: 1%;
             }
         }
     }

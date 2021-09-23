@@ -25,3 +25,14 @@ export const PageLayout = styled.div<PageLayoutProps>`
         }
     }};
 `;
+
+export const TextLink = styled.a.attrs({
+    target: '_blank',
+})`
+    text-decoration: underline;
+
+    :hover {
+        color: #ffffff;
+        font-weight: bold;
+    }
+`;

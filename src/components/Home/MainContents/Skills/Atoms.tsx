@@ -21,8 +21,8 @@ export const SkillsContents = styled.div`
 export const SkillsCategory = styled.span`
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 104px;
     height: 100%;
     margin-right: 94px;
@@ -44,7 +44,6 @@ export const SkillsCategory = styled.span`
 
 export const SkillSliderWrapper = styled.div`
     display: flex;
-    /* flex-direction: row; */
     flex-direction: column;
     align-items: center;
     overflow: auto;
@@ -59,15 +58,16 @@ export const SkillsCardWrapper = styled.span`
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* max-width: 1064px; */
-    /* height: 552px; */
     height: auto;
     z-index: 10;
     background-color: #060f3a;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
-    /* margin-right: 40px; */
     margin-bottom: 40px;
+
+    :first-child {
+        margin-top: 40px;
+    }
 
     p {
         padding-left: 40px;
@@ -77,6 +77,7 @@ export const SkillsCardWrapper = styled.span`
         font-size: 1.143rem;
         color: #8193b2;
         line-height: 2rem;
+
         ul {
             li {
                 :first-child {

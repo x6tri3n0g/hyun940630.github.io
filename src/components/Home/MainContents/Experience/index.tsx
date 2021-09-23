@@ -1,26 +1,36 @@
 import React from 'react';
+import { TextLink } from '../../../Atoms';
 import {
     ExperienceWrapper,
+    ExperienceHeader,
     ExperienceCardWrapper,
     ExperienceBackground,
     ExperienceContent,
+    ExperienceCardHeader,
 } from './Atoms';
 
 const Experience: React.FC = () => {
     return (
         <ExperienceWrapper id="experience">
+            <ExperienceHeader>
+                <h1>Experiences</h1>
+                <div />
+            </ExperienceHeader>
             <ExperienceBackground>
                 <ExperienceCardWrapper>
-                    <h2>원광대학교 컴퓨터공학과</h2>
-                    <ExperienceContent>
+                    <ExperienceCardHeader>
                         <img
-                            src="/images/experience/wonkwang.jpg"
+                            src="/images/experience/wonkwang.png"
                             alt="wonkwang_logo"
                         />
+                        <div>
+                            <h2>원광대학교 컴퓨터공학과</h2>
+                            <h3>2013년 - 2019년 졸업</h3>
+                            <h3>컴퓨터공학과 전공(학사)</h3>
+                        </div>
+                    </ExperienceCardHeader>
+                    <ExperienceContent>
                         <span>
-                            <h1>
-                                컴퓨터공학과 전공(학사) 2013년 - 2019년 졸업
-                            </h1>
                             <ul>
                                 <li>
                                     - 원광대학교 컴퓨터공학과를 전공하여
@@ -36,25 +46,47 @@ const Experience: React.FC = () => {
                                 </li>
                                 <li>
                                     - 학술동아리 : 아티니어(Artineer) 프로젝트 :
-                                    공우리(원광대학교 창의공과대학 길찾기
-                                    시스템), 원광대학교 컴퓨터소프트웨어공학과
-                                    동아리 아티니어 웹페이지
+                                    <TextLink href="https://github.com/hyun940630/GongWooli-campus-guide">
+                                        공우리(원광대학교 창의공과대학 길찾기
+                                        시스템)
+                                    </TextLink>
+                                    ,{' '}
+                                    <TextLink href="http://artineer.net/index.php">
+                                        원광대학교 컴퓨터 소프트웨어공학과
+                                        동아리 아티니어 웹페이지
+                                    </TextLink>
                                 </li>
                             </ul>
                         </span>
                     </ExperienceContent>
                 </ExperienceCardWrapper>
                 <ExperienceCardWrapper>
-                    <h2>석세스모드 SUCCESSMODE</h2>
-                    <ExperienceContent>
+                    <ExperienceCardHeader>
                         <img
                             src="/images/experience/successmode.png"
                             alt="successmode_logo"
                         />
-                        <span>
-                            <h1>2019년 10월 - 2020년 12월 | 13개월</h1>
+                        <div>
+                            <h2>
+                                <TextLink href="https://www.successmode.co.kr/about">
+                                    석세스모드 SUCCESSMODE
+                                </TextLink>
+                            </h2>
+                            <h3>2019년 10월 - 2020년 12월 | 13개월</h3>
                             <h3>React, React Native를 기반으로 웹/앱을 개발</h3>
-                            <h3>PhotoSend(iOS)</h3>
+                        </div>
+                    </ExperienceCardHeader>
+                    <ExperienceContent>
+                        <span>
+                            <h3>
+                                <TextLink href="https://appadvice.com/app/photosend/1491157337">
+                                    PhotoSend(iOS)
+                                </TextLink>
+                            </h3>
+                            <img
+                                src="/images/experience/photosend.png"
+                                alt="photosend"
+                            />
                             <ul>
                                 <li>
                                     - &quot;여행 프리미엄 쇼핑 서비스.
@@ -72,7 +104,16 @@ const Experience: React.FC = () => {
                                     / iOS
                                 </li>
                             </ul>
-                            <h3>TourCash(iOS/Android)</h3>
+
+                            <h3>
+                                <TextLink href="https://appadvice.com/app/tourcash/1515070189">
+                                    TourCash(iOS/Android)
+                                </TextLink>
+                            </h3>
+                            <img
+                                src="/images/experience/tourcash.png"
+                                alt="tourcash"
+                            />
                             <ul>
                                 <li>
                                     - 한국 여행 필수품! TOURCASH 카드 한 장 이면
@@ -92,7 +133,16 @@ const Experience: React.FC = () => {
                                     Android
                                 </li>
                             </ul>
-                            <h3>Daily8(iOS/Android)</h3>
+
+                            <h3>
+                                <TextLink href="https://appadvice.com/app/daily8/1526626121">
+                                    Daily8(iOS/Android)
+                                </TextLink>
+                            </h3>
+                            <img
+                                src="/images/experience/daily8.png"
+                                alt="daily8"
+                            />
                             <ul>
                                 <li>- 매일 8개의 관심 상품을 추천 받으세요!</li>
                                 <li>
@@ -121,18 +171,29 @@ const Experience: React.FC = () => {
                     </ExperienceContent>
                 </ExperienceCardWrapper>
                 <ExperienceCardWrapper>
-                    <h2>네오플렛 neoflat</h2>
-                    <ExperienceContent>
+                    <ExperienceCardHeader>
                         <img
                             src="/images/experience/neoflat.png"
                             alt="neoflat_logo"
                         />
+                        <div>
+                            <h2>
+                                <TextLink href="https://www.notion.so/gito/fad27e9cbf7643e3ad7b138c219818cf">
+                                    네오플렛 neoflat
+                                </TextLink>
+                            </h2>
+                            <h3>2020년 12월 - 재직중</h3>
+                            <h3>가벼운 주거를 위한 서비스를 개발</h3>
+                        </div>
+                    </ExperienceCardHeader>
+                    <ExperienceContent>
                         <span>
                             <h3>
-                                <a href="https://algo.neoflat.net/view/rentalHouse/list">
+                                <TextLink href="https://algo.neoflat.net/view/rentalHouse/list">
                                     알고
-                                </a>
+                                </TextLink>
                             </h3>
+                            <img src="/images/experience/algo.png" alt="algo" />
                             <ul>
                                 <li>
                                     - JavaScript, JQuery를 이용하여 웹/앱(iOS)을
@@ -147,8 +208,14 @@ const Experience: React.FC = () => {
                                 </li>
                             </ul>
                             <h3>
-                                <a href="https://gobang.kr/view/main">고방</a>
+                                <TextLink href="https://gobang.kr/view/main">
+                                    고방
+                                </TextLink>
                             </h3>
+                            <img
+                                src="/images/experience/gobang.png"
+                                alt="gobang"
+                            />
                             <ul>
                                 <li>
                                     - JavaScript, JQuery를 이용하여 웹/앱(iOS)을
@@ -161,6 +228,10 @@ const Experience: React.FC = () => {
                                 <li>- 직거래, 임대주택 부분을 주로 개발</li>
                             </ul>
                             <h3>Station</h3>
+                            <span>
+                                * 사내 어드민 페이지로 공개할 수 있는 정보가
+                                없습니다.
+                            </span>
                             <ul>
                                 <li>
                                     - 네오플랫의 클라이언트 사이드 서비스를
@@ -173,10 +244,25 @@ const Experience: React.FC = () => {
                                 <li>- 프로젝트 전반을 개발</li>
                             </ul>
                             <h3>
-                                <a href="https://westay.a.t-neoflat.net/">
+                                <TextLink href="https://westay.a.t-neoflat.net/">
                                     WESTAY
-                                </a>
+                                </TextLink>
                             </h3>
+                            <div>
+                                <img
+                                    src="/images/experience/westay.png"
+                                    alt="westay"
+                                />
+                                <img
+                                    src="/images/experience/westay2.png"
+                                    alt="westay2"
+                                />
+                                <img
+                                    src="/images/experience/westay3.png"
+                                    alt="westay3"
+                                />
+                            </div>
+
                             <ul>
                                 <li>
                                     - 네오플랫의 전반적인 공간정보를 한눈에 볼
@@ -193,6 +279,7 @@ const Experience: React.FC = () => {
                                     있었습니다.
                                 </li>
                                 <li>- Client side 전반을 책임지고 개발</li>
+                                <li>- 현재 개발 진행중</li>
                             </ul>
                         </span>
                     </ExperienceContent>

@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { PageLayout } from 'components/Atoms';
 import { MainContentsWrapper } from 'components/Home/MainContents/Atoms';
 import TopNavigation from 'components/TopNavigation';
