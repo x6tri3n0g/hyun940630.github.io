@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/globalStyle.css"],"names":[],"mappings":"AAAA,KACI,sBACJ","file":"main.a3e25401.chunk.css","sourcesContent":["html {\n    scroll-behavior: smooth;\n}\n"]}
