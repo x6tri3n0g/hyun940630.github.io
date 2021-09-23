@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const ExperienceWrapper = styled.div`
-    position: relative;
     width: 100%;
     /* height: 1100px; */
     height: auto;
@@ -11,6 +10,10 @@ export const ExperienceWrapper = styled.div`
 
 export const ExperienceHeader = styled.div`
     width: 104px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 390px;
+
     h1 {
         font-size: 2.3rem;
         font-weight: 700;
@@ -34,7 +37,7 @@ export const ExperienceBackground = styled.div`
 `;
 
 export const ExperienceCardWrapper = styled.div`
-    width: 83.33%;
+    width: 81%;
     height: auto;
     background-color: #060f3a;
     border-top-left-radius: 50px;
@@ -77,17 +80,18 @@ export const ExperienceContent = styled.div`
     span {
         display: flex;
         flex-direction: column;
-        width: 580px;
+        width: 820px;
         height: auto;
 
         h3 {
+            font-size: 20px;
             font-weight: 600;
             color: #f6f6f6;
             margin-top: 60px;
 
             :hover {
                 font-weight: 800;
-                color: #ffffff;
+                color: gray;
             }
         }
         span {
@@ -110,7 +114,7 @@ export const ExperienceContent = styled.div`
         }
 
         > img {
-            width: 580px;
+            width: 820px;
             height: auto;
             margin-left: 40px;
             margin-bottom: 20px;
@@ -119,7 +123,7 @@ export const ExperienceContent = styled.div`
         div {
             display: flex;
             flex-direction: row;
-            width: 580px;
+            width: 820px;
             height: auto;
             margin-left: 40px;
             margin-bottom: 20px;

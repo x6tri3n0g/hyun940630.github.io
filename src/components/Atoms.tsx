@@ -32,7 +32,7 @@ export const TextLink = styled.a.attrs({
     text-decoration: underline;
 
     :hover {
-        color: #ffffff;
+        color: gray;
         font-weight: bold;
     }
 `;

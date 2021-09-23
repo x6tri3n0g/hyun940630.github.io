@@ -5,11 +5,24 @@ const Footer: React.FC = () => {
     return (
         <FooterWrapper>
             <ul>
-                <li>Developed by Hyun(xtring)</li>
                 <span />
-                <li>Designed by Yong(ruddy)</li>
+                <li>
+                    Developed by
+                    <br />
+                    Hyun(xtring)
+                </li>
                 <span />
-                <li>Contact me by Email or SNS.</li>
+                <li>
+                    Designed by
+                    <br />
+                    Yong(ruddy)
+                </li>
+                <span />
+                <li>
+                    Contact me by
+                    <br />
+                    Email or SNS.
+                </li>
             </ul>
         </FooterWrapper>
     );

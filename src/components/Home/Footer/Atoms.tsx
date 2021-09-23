@@ -17,6 +17,7 @@ export const FooterWrapper = styled.div`
             font-size: 12px;
             font-weight: 400;
             color: #8193b2;
+            margin: 0 4px;
         }
         span {
             width: 0.5px;
