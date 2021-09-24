@@ -6,7 +6,7 @@ const Header: React.FC = () => {
         <HeaderWrapper id="#">
             <div>
                 <span>
-                    <h1>Anywhere you need a Beautiful UX/UI.</h1>
+                    <h1>A beautiful UX/UI is needed everywhere.</h1>
                     <p>
                         사람들은 아름다운 UX/UI에 관심을 가지고 사용하는 것을
                         좋아합니다. Front-end 개발자로서 사용자가 서비스를 더욱
