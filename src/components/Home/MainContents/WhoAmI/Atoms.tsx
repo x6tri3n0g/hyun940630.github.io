@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const WhoAmIWrapper = styled.div`
     position: relative;
     width: 100%;
-    height: 789px;
+    height: 1000px;
 `;
 
 export const LeftBlankBlock = styled.div`
@@ -11,7 +11,7 @@ export const LeftBlankBlock = styled.div`
     top: 0;
     left: 0;
     width: 26.92vw;
-    height: 789px;
+    height: 100%;
     background-color: #060f3a;
 `;
 
@@ -21,7 +21,7 @@ export const IAmWrapper = styled.div`
     justify-content: flex-start;
     align-items: center;
     width: 1280px;
-    height: 789px;
+    height: 100%;
     margin: 0 auto;
 `;
 
@@ -42,6 +42,7 @@ export const MyImage = styled.div`
         height: 400px;
         border-radius: 200px;
         background-color: #00000075;
+
         img {
             width: 100%;
             height: 100%;
@@ -72,7 +73,7 @@ export const MYDes = styled.div`
         margin-bottom: 30px;
     }
     p {
-        width: 486px;
+        width: 500px;
         font-size: 1.2rem;
         font-weight: 400;
         line-height: 2.3rem;
@@ -89,23 +90,22 @@ export const MYDes = styled.div`
 export const WhoAmIFigureWrapper = styled.div`
     position: absolute;
     top: 0px;
-    right: -240px;
+    right: -239px;
     width: 480px;
-    height: 789px;
+    height: 100%;
 `;
 
 export const WhoAmIFigureCircle = styled.div`
-    z-index: -10;
+    position: absolute;
     width: 480px;
     height: 480px;
     border-radius: 240px;
     background-color: #0f1c57;
-    margin-top: -240px;
+    margin-top: -270px;
 `;
 export const WhoAmIFigureVerticalLine = styled.div`
-    z-index: -20;
     width: 1px;
-    height: 549px;
+    height: 100%;
     margin: 0 auto;
     background-color: #0f1c57;
 `;

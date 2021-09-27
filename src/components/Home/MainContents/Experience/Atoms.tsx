@@ -1,18 +1,19 @@
 import styled from 'styled-components';
 
 export const ExperienceWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     width: 100%;
-    /* height: 1100px; */
     height: auto;
     background-color: #02092a;
     border-top: 1px solid #0f1c57;
 `;
 
 export const ExperienceHeader = styled.div`
-    width: 104px;
+    width: 81%;
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: 390px;
 
     h1 {
         font-size: 2.3rem;
@@ -21,19 +22,10 @@ export const ExperienceHeader = styled.div`
         line-height: 4.286rem;
     }
     div {
-        width: 100%;
+        width: 128px;
         height: 1px;
         border: 1px solid #ffffff;
     }
-`;
-
-export const ExperienceBackground = styled.div`
-    width: 100%;
-    background-color: #02092a;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
 `;
 
 export const ExperienceCardWrapper = styled.div`
@@ -63,6 +55,9 @@ export const ExperienceCardHeader = styled.div`
     }
 
     div {
+        width: 100%;
+        height: auto;
+
         h2 {
             color: #ffffff;
         }

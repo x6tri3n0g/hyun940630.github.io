@@ -28,7 +28,7 @@ const WhoAmI: React.FC = () => {
                     <h1>Front End Developer</h1>
                     <p>
                         안녕하세요👋🏻 황현(Hwang Hyun; xtring)입니다. 아름다운
-                        UX/UI를 만들어내는 것이 즐거운 Front-end
+                        UX/UI를 만들어내는 것이 즐거운 Front End
                         Developer입니다. <br />
                         <br />
                         <strong>
@@ -42,11 +42,12 @@ const WhoAmI: React.FC = () => {
                         </small>
                         <br />
                         <br />
-                        소프트웨어를 통해 비즈니스가 부딪히는 장벽을 허물고
-                        사용잘들에게 한발자국 더 다가야겠다는 생각을
-                        만들어주었습니다.사용성과 아름다움을 고려한 UX/UI를 통해
-                        더 나은 서비스로 비즈니스 개발에 함께하고 싶습니다.
-                        🧑🏻‍💻
+                        소프트웨어를 통해 비즈니스가 마주하는 장벽을 허물고
+                        사용자들에게 한 발자국 더 다가고 싶습니다. 많은 사람들이
+                        제가 만들어낸 UI를 사용하여 즐거움과 편리함을 느낀다면
+                        그보다 더 큰 성취감은 없을 것입니다. 사용성과 아름다움을
+                        고려한 UX/UI를 통해 서비스와 비즈니스 개발에 함께하고
+                        싶습니다. 🧑🏻‍💻
                     </p>
                 </MYDes>
                 <WhoAmIFigureWrapper>

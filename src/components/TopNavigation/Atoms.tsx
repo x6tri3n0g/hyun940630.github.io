@@ -8,9 +8,9 @@ export const TopNavigationWrapper = styled.header`
     display: flex;
     align-items: center;
     width: 100%;
-    height: 56px;
+    height: 60px;
     padding: 8px 0px;
-    background-color: transparent;
+    background-color: #00000060;
     transition: 0.2s ease-in-out;
     z-index: 100;
 `;
