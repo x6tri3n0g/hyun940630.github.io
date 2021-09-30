@@ -7,7 +7,7 @@ import WhoAmI from 'components/Home/MainContents/WhoAmI';
 import Skills from 'components/Home/MainContents/Skills';
 import Experience from 'components/Home/MainContents/Experience';
 // import Portfolio from 'components/Home/MainContents/Portfolio';
-// import Interest from 'components/Home/MainContents/Interest';
+import Interest from 'components/Home/MainContents/Interest';
 import Footer from 'components/Home/Footer';
 
 interface HomeProps {
@@ -24,7 +24,7 @@ const Home: React.FC<HomeProps> = ({ mode }: HomeProps) => {
                 <Skills />
                 <Experience />
                 {/* <Portfolio /> */}
-                {/* <Interest /> */}
+                <Interest />
                 <Footer />
             </MainContentsWrapper>
         </PageLayout>

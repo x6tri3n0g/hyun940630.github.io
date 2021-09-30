@@ -50,38 +50,47 @@ const Experience: React.FC = () => {
                         />
                         <div>
                             <h2>
+                                네오플렛 neoflat
                                 <TextLink href="https://www.notion.so/gito/fad27e9cbf7643e3ad7b138c219818cf">
-                                    네오플렛 neoflat
+                                    바로가기
                                 </TextLink>
                             </h2>
-                            <h3>2020년 12월 - 재직중</h3>
-                            <h3>가벼운 주거를 위한 서비스를 개발</h3>
+                            <h3>2020년 12월 - 재직중 | 10개월</h3>
+                            <h3>가벼운 주거/머묾를 위한 서비스 개발</h3>
+                            <h3>Software Developer</h3>
                         </div>
                     </ExperienceCardHeader>
                     <ExperienceContent>
                         <span>
                             <h3>
+                                알고
                                 <TextLink href="https://algo.neoflat.net/view/rentalHouse/list">
-                                    알고
+                                    바로가기
                                 </TextLink>
                             </h3>
                             <img src="/images/experience/algo.png" alt="algo" />
                             <ul>
                                 <li>
-                                    - JavaScript, JQuery를 이용하여 웹/앱(iOS)을
-                                    개발했습니다.
+                                    - 서비스 &apos;알고&apos;는 기존 어색하고
+                                    딱딱하기만 했던 공고들을 지역 및 필터로
+                                    조회하여 원하는 임대주택 공고를 찾을 수 있게
+                                    도와줍니다. 관심지역을 설정하면 그 지역에
+                                    관련된 알림을 받을 수 있습니다.
                                 </li>
+                                <li>- Spring, JSP, JQuery</li>
                                 <li>
-                                    - Spring 기반의 웹 어플리케이션으로 모놀로틱
+                                    - Spring 기반의 웹 어플리케이션으로 모놀로식
                                     아키텍처로 구성된 프로젝트입니다.
                                 </li>
                                 <li>
-                                    - 주로 메인과 임대주택 필터 부분을 주로 개발
+                                    - 개발 사항 : 메인 화면, 임대주택 필터 및
+                                    알림 개발 / iOS 앱 유지보수 및 개발
                                 </li>
                             </ul>
                             <h3>
+                                고방
                                 <TextLink href="https://gobang.kr/view/main">
-                                    고방
+                                    바로가기
                                 </TextLink>
                             </h3>
                             <img
@@ -90,14 +99,20 @@ const Experience: React.FC = () => {
                             />
                             <ul>
                                 <li>
-                                    - JavaScript, JQuery를 이용하여 웹/앱(iOS)을
-                                    개발했습니다.
+                                    - 서비스 &apos;고방&apos;은 가벼운 주거를
+                                    소개하는 플랫폼입니다. 고시원, 쉐어하우스,
+                                    직거래, 임대주택 관련 정보를 한눈에 볼 수
+                                    있습니다.
                                 </li>
+                                <li>- Spring, JSP, JQuery</li>
                                 <li>
-                                    - Spring 기반의 웹 어플리케이션으로 모놀로틱
+                                    - Spring 기반의 웹 어플리케이션으로 모놀로식
                                     아키텍처로 구성된 프로젝트입니다.
                                 </li>
-                                <li>- 직거래, 임대주택 부분을 주로 개발</li>
+                                <li>
+                                    - 개발 사항 : 직거래, 임대주택 개발 / iOS 앱
+                                    유지보수 및 개발
+                                </li>
                             </ul>
                             <h3>Station</h3>
                             <span>
@@ -106,18 +121,23 @@ const Experience: React.FC = () => {
                             </span>
                             <ul>
                                 <li>
-                                    - 네오플랫의 클라이언트 사이드 서비스를
-                                    관리하는 백오피스 어플리케이션
+                                    - 네오플랫의 서비스의 유저, 임대주택 공고,
+                                    결제, 뉴스 관리를 위한 백오피스 어플리케이션
+                                    입니다.
                                 </li>
                                 <li>
                                     - React(CRA), React hook, Antd, Responsive
                                     Web
                                 </li>
-                                <li>- 프로젝트 전반을 개발</li>
+                                <li>
+                                    - 개발사항: 프로젝트 전반을 개발, 데이터
+                                    테이블 및 필터 개발
+                                </li>
                             </ul>
                             <h3>
+                                WESTAY
                                 <TextLink href="https://westay.a.t-neoflat.net/">
-                                    WESTAY
+                                    바로가기
                                 </TextLink>
                             </h3>
                             <div>
@@ -137,21 +157,27 @@ const Experience: React.FC = () => {
 
                             <ul>
                                 <li>
-                                    - 네오플랫의 전반적인 공간정보를 한눈에 볼
-                                    수 있는 서비스로 단기 임대 공간을
-                                    중개합니다.
+                                    - 네오플랫이 운영관리하는 공간정보를 한눈에
+                                    볼 수 있는 서비스로 단기 임대/주거 공간을
+                                    소개합니다.
                                 </li>
                                 <li>
                                     - Next.js(SSR), React hook, SWR, emotion,
-                                    Antd, Responsive Web, zPWA
+                                    Antd, PWA, Responsive Web, Kakao API(Login,
+                                    Map)
                                 </li>
                                 <li>
-                                    - SSR 기반의 개발을 통해 기존 CRA에서의
-                                    퍼포먼스, SEO 이슈를 명쾌하게 해결할 수
-                                    있었습니다.
+                                    - SSR 기반으로 pre-render를 통해 퍼포먼스 더
+                                    좋은 사용성을 만들었습니다. SEO 최적화에
+                                    대해 알아보고 이를 적용합니다. 데스크탑과
+                                    모바일 간의 화면 구성 방식이 매우 다르기
+                                    때문에 반응형 설계에 대해서 고민했습니다.
                                 </li>
-                                <li>- Client side 전반을 책임지고 개발</li>
-                                <li>- 현재 개발 진행중</li>
+                                <li>
+                                    - 현재 개발중에 있으며 Mobile 90%, Desktop
+                                    60% 정도 개발
+                                </li>
+                                <li>- 개발사항: 프로젝트 설계 및 개발</li>
                             </ul>
                         </span>
                     </ExperienceContent>
@@ -165,8 +191,9 @@ const Experience: React.FC = () => {
                     />
                     <div>
                         <h2>
+                            석세스모드 SUCCESSMODE
                             <TextLink href="https://www.successmode.co.kr/about">
-                                석세스모드 SUCCESSMODE
+                                바로가기
                             </TextLink>
                         </h2>
                         <h3>2019년 10월 - 2020년 12월 | 13개월</h3>
@@ -176,8 +203,9 @@ const Experience: React.FC = () => {
                 <ExperienceContent>
                     <span>
                         <h3>
+                            PhotoSend(iOS)
                             <TextLink href="https://appadvice.com/app/photosend/1491157337">
-                                PhotoSend(iOS)
+                                바로가기
                             </TextLink>
                         </h3>
                         <img
@@ -202,8 +230,9 @@ const Experience: React.FC = () => {
                         </ul>
 
                         <h3>
+                            TourCash(iOS/Android)
                             <TextLink href="https://appadvice.com/app/tourcash/1515070189">
-                                TourCash(iOS/Android)
+                                바로가기
                             </TextLink>
                         </h3>
                         <img
@@ -230,8 +259,9 @@ const Experience: React.FC = () => {
                         </ul>
 
                         <h3>
+                            Daily8(iOS/Android)
                             <TextLink href="https://appadvice.com/app/daily8/1526626121">
-                                Daily8(iOS/Android)
+                                바로가기
                             </TextLink>
                         </h3>
                         <img src="/images/experience/daily8.png" alt="daily8" />
@@ -287,7 +317,7 @@ const Experience: React.FC = () => {
                                 Developer
                             </li>
                             <li>
-                                - 학술동아리 : 아티니어(Artineer) 프로젝트 :
+                                - 아티니어(Artineer, 학술동아리) 프로젝트 :
                                 <TextLink href="https://github.com/hyun940630/GongWooli-campus-guide">
                                     공우리(원광대학교 창의공과대학 길찾기
                                     시스템)

@@ -9,19 +9,21 @@ import {
 const Interest: React.FC = () => {
     return (
         <InterestWrapper>
-            <InterestBackground />
-            <InterestContent>
-                <h1>
-                    Interest
-                    <span />
-                </h1>
-                <p>
-                    Hi 👋🏻 Im Hwang Hyun, a Frontend Developer who likes to
-                    create. Beautiful UX/UI is needed for any service and can be
-                    entertaining for I am always in this thought and worry.
-                </p>
-                <InterestGallery>이미지 갤러리</InterestGallery>
-            </InterestContent>
+            <InterestBackground>
+                <InterestContent>
+                    <h1>
+                        Interest
+                        <span />
+                    </h1>
+                    <ul>
+                        <li>Web development(MVVM pattern)</li>
+                        <li>Mobile development(Multi platform Application)</li>
+                        <li>ML / Data science(just interest...)</li>
+                        <li>Team work(to do work better)</li>
+                    </ul>
+                    <p>I work every day to achieve my dream as a developer.</p>
+                </InterestContent>
+            </InterestBackground>
         </InterestWrapper>
     );
 };
