@@ -16,7 +16,7 @@ const Interest: React.FC = () => {
                         <span />
                     </h1>
                     <ul>
-                        <li>Web development(MVVM pattern)</li>
+                        <li>Web development</li>
                         <li>Mobile development(Multi platform Application)</li>
                         <li>ML / Data science(just interest...)</li>
                         <li>Team work(to do work better)</li>

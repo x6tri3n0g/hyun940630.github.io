@@ -42,146 +42,138 @@ const Experience: React.FC = () => {
                 <div />
             </ExperienceHeader>
             <ExperienceCardWrapper>
-                <ExperienceCardWrapper>
-                    <ExperienceCardHeader>
-                        <img
-                            src="/images/experience/neoflat.png"
-                            alt="neoflat_logo"
-                        />
-                        <div>
-                            <h2>
-                                네오플렛 neoflat
-                                <TextLink href="https://www.notion.so/gito/fad27e9cbf7643e3ad7b138c219818cf">
-                                    바로가기
-                                </TextLink>
-                            </h2>
-                            <h3>2020년 12월 - 재직중 | 10개월</h3>
-                            <h3>가벼운 주거/머묾를 위한 서비스 개발</h3>
-                            <h3>Software Developer</h3>
-                        </div>
-                    </ExperienceCardHeader>
-                    <ExperienceContent>
+                <ExperienceCardHeader>
+                    <img
+                        src="/images/experience/neoflat.png"
+                        alt="neoflat_logo"
+                    />
+                    <div>
+                        <h2>
+                            네오플렛 neoflat
+                            <TextLink href="https://www.notion.so/gito/fad27e9cbf7643e3ad7b138c219818cf">
+                                바로가기
+                            </TextLink>
+                        </h2>
+                        <h3>2020년 12월 - 재직중 | 10개월</h3>
+                        <h3>가벼운 주거/머묾를 위한 서비스 개발</h3>
+                        <h3>Software Developer</h3>
+                    </div>
+                </ExperienceCardHeader>
+                <ExperienceContent>
+                    <span>
+                        <h3>
+                            알고
+                            <TextLink href="https://algo.neoflat.net/view/rentalHouse/list">
+                                바로가기
+                            </TextLink>
+                        </h3>
+                        <img src="/images/experience/algo.png" alt="algo" />
+                        <ul>
+                            <li>
+                                - 서비스 &apos;알고&apos;는 기존 어색하고
+                                딱딱하기만 했던 공고들을 지역 및 필터로 조회하여
+                                원하는 임대주택 공고를 찾을 수 있게 도와줍니다.
+                                관심지역을 설정하면 그 지역에 관련된 알림을 받을
+                                수 있습니다.
+                            </li>
+                            <li>- Spring, JSP, JQuery</li>
+                            <li>
+                                - Spring 기반의 웹 어플리케이션으로 모놀로식
+                                아키텍처로 구성된 프로젝트입니다.
+                            </li>
+                            <li>
+                                - 개발 사항 : 메인 화면, 임대주택 필터 및 알림
+                                개발 / iOS 앱 유지보수 및 개발
+                            </li>
+                        </ul>
+                        <h3>
+                            고방
+                            <TextLink href="https://gobang.kr/view/main">
+                                바로가기
+                            </TextLink>
+                        </h3>
+                        <img src="/images/experience/gobang.png" alt="gobang" />
+                        <ul>
+                            <li>
+                                - 서비스 &apos;고방&apos;은 가벼운 주거를
+                                소개하는 플랫폼입니다. 고시원, 쉐어하우스,
+                                직거래, 임대주택 관련 정보를 한눈에 볼 수
+                                있습니다.
+                            </li>
+                            <li>- Spring, JSP, JQuery</li>
+                            <li>
+                                - Spring 기반의 웹 어플리케이션으로 모놀로식
+                                아키텍처로 구성된 프로젝트입니다.
+                            </li>
+                            <li>
+                                - 개발 사항 : 직거래, 임대주택 개발 / iOS 앱
+                                유지보수 및 개발
+                            </li>
+                        </ul>
+                        <h3>Station</h3>
                         <span>
-                            <h3>
-                                알고
-                                <TextLink href="https://algo.neoflat.net/view/rentalHouse/list">
-                                    바로가기
-                                </TextLink>
-                            </h3>
-                            <img src="/images/experience/algo.png" alt="algo" />
-                            <ul>
-                                <li>
-                                    - 서비스 &apos;알고&apos;는 기존 어색하고
-                                    딱딱하기만 했던 공고들을 지역 및 필터로
-                                    조회하여 원하는 임대주택 공고를 찾을 수 있게
-                                    도와줍니다. 관심지역을 설정하면 그 지역에
-                                    관련된 알림을 받을 수 있습니다.
-                                </li>
-                                <li>- Spring, JSP, JQuery</li>
-                                <li>
-                                    - Spring 기반의 웹 어플리케이션으로 모놀로식
-                                    아키텍처로 구성된 프로젝트입니다.
-                                </li>
-                                <li>
-                                    - 개발 사항 : 메인 화면, 임대주택 필터 및
-                                    알림 개발 / iOS 앱 유지보수 및 개발
-                                </li>
-                            </ul>
-                            <h3>
-                                고방
-                                <TextLink href="https://gobang.kr/view/main">
-                                    바로가기
-                                </TextLink>
-                            </h3>
-                            <img
-                                src="/images/experience/gobang.png"
-                                alt="gobang"
-                            />
-                            <ul>
-                                <li>
-                                    - 서비스 &apos;고방&apos;은 가벼운 주거를
-                                    소개하는 플랫폼입니다. 고시원, 쉐어하우스,
-                                    직거래, 임대주택 관련 정보를 한눈에 볼 수
-                                    있습니다.
-                                </li>
-                                <li>- Spring, JSP, JQuery</li>
-                                <li>
-                                    - Spring 기반의 웹 어플리케이션으로 모놀로식
-                                    아키텍처로 구성된 프로젝트입니다.
-                                </li>
-                                <li>
-                                    - 개발 사항 : 직거래, 임대주택 개발 / iOS 앱
-                                    유지보수 및 개발
-                                </li>
-                            </ul>
-                            <h3>Station</h3>
-                            <span>
-                                * 사내 어드민 페이지로 공개할 수 있는 정보가
-                                없습니다.
-                            </span>
-                            <ul>
-                                <li>
-                                    - 네오플랫의 서비스의 유저, 임대주택 공고,
-                                    결제, 뉴스 관리를 위한 백오피스 어플리케이션
-                                    입니다.
-                                </li>
-                                <li>
-                                    - React(CRA), React hook, Antd, Responsive
-                                    Web
-                                </li>
-                                <li>
-                                    - 개발사항: 프로젝트 전반을 개발, 데이터
-                                    테이블 및 필터 개발
-                                </li>
-                            </ul>
-                            <h3>
-                                WESTAY
-                                <TextLink href="https://westay.a.t-neoflat.net/">
-                                    바로가기
-                                </TextLink>
-                            </h3>
-                            <div>
-                                <img
-                                    src="/images/experience/westay.png"
-                                    alt="westay"
-                                />
-                                <img
-                                    src="/images/experience/westay2.png"
-                                    alt="westay2"
-                                />
-                                <img
-                                    src="/images/experience/westay3.png"
-                                    alt="westay3"
-                                />
-                            </div>
-
-                            <ul>
-                                <li>
-                                    - 네오플랫이 운영관리하는 공간정보를 한눈에
-                                    볼 수 있는 서비스로 단기 임대/주거 공간을
-                                    소개합니다.
-                                </li>
-                                <li>
-                                    - Next.js(SSR), React hook, SWR, emotion,
-                                    Antd, PWA, Responsive Web, Kakao API(Login,
-                                    Map)
-                                </li>
-                                <li>
-                                    - SSR 기반으로 pre-render를 통해 퍼포먼스 더
-                                    좋은 사용성을 만들었습니다. SEO 최적화에
-                                    대해 알아보고 이를 적용합니다. 데스크탑과
-                                    모바일 간의 화면 구성 방식이 매우 다르기
-                                    때문에 반응형 설계에 대해서 고민했습니다.
-                                </li>
-                                <li>
-                                    - 현재 개발중에 있으며 Mobile 90%, Desktop
-                                    60% 정도 개발
-                                </li>
-                                <li>- 개발사항: 프로젝트 설계 및 개발</li>
-                            </ul>
+                            * 사내 어드민 페이지로 공개할 수 있는 정보가
+                            없습니다.
                         </span>
-                    </ExperienceContent>
-                </ExperienceCardWrapper>
+                        <ul>
+                            <li>
+                                - 네오플랫의 서비스의 유저, 임대주택 공고, 결제,
+                                뉴스 관리를 위한 백오피스 어플리케이션 입니다.
+                            </li>
+                            <li>
+                                - React(CRA), React hook, Antd, Responsive Web
+                            </li>
+                            <li>
+                                - 개발사항: 프로젝트 전반을 개발, 데이터 테이블
+                                및 필터 개발
+                            </li>
+                        </ul>
+                        <h3>
+                            WESTAY
+                            <TextLink href="https://westay.a.t-neoflat.net/">
+                                바로가기
+                            </TextLink>
+                        </h3>
+                        <div>
+                            <img
+                                src="/images/experience/westay.png"
+                                alt="westay"
+                            />
+                            <img
+                                src="/images/experience/westay2.png"
+                                alt="westay2"
+                            />
+                            <img
+                                src="/images/experience/westay3.png"
+                                alt="westay3"
+                            />
+                        </div>
+
+                        <ul>
+                            <li>
+                                - 네오플랫이 운영관리하는 공간정보를 한눈에 볼
+                                수 있는 서비스로 단기 임대/주거 공간을
+                                소개합니다.
+                            </li>
+                            <li>
+                                - Next.js(SSR), React hook, SWR, emotion, Antd,
+                                PWA, Responsive Web, Kakao API(Login, Map)
+                            </li>
+                            <li>
+                                - Next의 특징인 SSR/SSG의 pre-render를 통해 더
+                                나은 사용성과 퍼포먼스를 만들었습니다. SEO
+                                최적화에 대해 알아보고 이를 적용합니다.
+                                데스크탑과 모바일 간의 화면 구성 방식이 매우
+                                다르기 때문에 반응형 설계에 대해서 고민했습니다.
+                            </li>
+                            <li>
+                                - 현재 개발중에 있으며 Mobile 90%, Desktop 60%
+                                정도 개발
+                            </li>
+                            <li>- 개발사항: 프로젝트 설계 및 개발</li>
+                        </ul>
+                    </span>
+                </ExperienceContent>
             </ExperienceCardWrapper>
             <ExperienceCardWrapper>
                 <ExperienceCardHeader>

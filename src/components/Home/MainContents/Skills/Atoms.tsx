@@ -4,6 +4,21 @@ export const SkillsWrapper = styled.div`
     width: 100%;
     /* height: 680px; */
     height: auto;
+    background-image: linear-gradient(
+        to right top,
+        #02092a,
+        #030e2f,
+        #031235,
+        #03153a,
+        #041840,
+        #051a43,
+        #051b47,
+        #061d4a,
+        #071e4c,
+        #071f4e,
+        #082150,
+        #092252
+    );
     border-top: 1px solid #0f1c57;
 `;
 

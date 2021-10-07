@@ -6,6 +6,21 @@ export const InterestWrapper = styled.div`
     height: auto;
     padding: 60px;
     z-index: 100;
+    background-image: linear-gradient(
+        to right top,
+        #02092a,
+        #030e2f,
+        #031235,
+        #03153a,
+        #041840,
+        #051a43,
+        #051b47,
+        #061d4a,
+        #071e4c,
+        #071f4e,
+        #082150,
+        #092252
+    );
     border-bottom: 1px solid #060f3a;
 `;
 
@@ -24,6 +39,7 @@ export const InterestContent = styled.div`
     height: 100%;
     z-index: 10;
     border-right: 1px solid #060f3a;
+    padding-left: 24%;
 
     h1 {
         display: flex;

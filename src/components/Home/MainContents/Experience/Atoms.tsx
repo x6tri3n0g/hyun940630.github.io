@@ -6,7 +6,21 @@ export const ExperienceWrapper = styled.div`
     align-items: flex-end;
     width: 100%;
     height: auto;
-    background-color: #02092a;
+    background-image: linear-gradient(
+        to right bottom,
+        #02092a,
+        #030f30,
+        #021337,
+        #03173e,
+        #041a45,
+        #081f4c,
+        #0c2453,
+        #10295a,
+        #183063,
+        #1f386b,
+        #264074,
+        #2d487d
+    );
     border-top: 1px solid #0f1c57;
 `;
 
@@ -34,8 +48,9 @@ export const ExperienceCardWrapper = styled.div`
     background-color: #060f3a;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
-    padding: 40px 60px;
+    padding: 40px 0;
     margin-bottom: 40px;
+    padding-left: 10%;
 `;
 
 export const ExperienceCardHeader = styled.div`

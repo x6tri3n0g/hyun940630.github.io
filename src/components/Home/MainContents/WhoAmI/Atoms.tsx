@@ -4,6 +4,21 @@ export const WhoAmIWrapper = styled.div`
     position: relative;
     width: 100%;
     height: 1000px;
+    background-image: linear-gradient(
+        to bottom,
+        #02092a,
+        #030e2f,
+        #031235,
+        #03153a,
+        #041840,
+        #051a43,
+        #051b47,
+        #061d4a,
+        #071e4c,
+        #071f4e,
+        #082150,
+        #092252
+    );
 `;
 
 export const LeftBlankBlock = styled.div`
