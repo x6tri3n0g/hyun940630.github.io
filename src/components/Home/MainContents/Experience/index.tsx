@@ -130,7 +130,7 @@ const Experience: React.FC = () => {
                         </ul>
                         <h3>
                             WESTAY
-                            <TextLink href="https://westay.a.t-neoflat.net/">
+                            <TextLink href="https://westay.co.kr/">
                                 바로가기
                             </TextLink>
                         </h3>
