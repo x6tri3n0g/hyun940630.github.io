@@ -18,7 +18,7 @@ const WhoAmI: React.FC = () => {
             <IAmWrapper>
                 <MyImage>
                     <div>
-                        <Profile imageUrl="/my_face.png" />
+                        <Profile />
                     </div>
                 </MyImage>
                 <MYDes>

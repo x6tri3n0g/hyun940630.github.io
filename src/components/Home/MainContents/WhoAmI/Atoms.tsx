@@ -61,7 +61,7 @@ export const MyImage = styled.div`
     }
 `;
 
-export const Profile = styled.div<{ imageUrl: string }>`
+export const Profile = styled.div`
     width: 400px;
     height: 400px;
     background: url(${'/my_face.png'}) center center no-repeat;
