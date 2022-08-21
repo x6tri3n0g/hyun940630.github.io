@@ -54,11 +54,6 @@ export const MyImage = styled.div`
     z-index: 2;
     margin-right: 32px;
     position: relative;
-
-    div {
-        border-radius: 200px;
-        background-color: #00000030;
-    }
 `;
 
 export const Profile = styled.div`
@@ -66,6 +61,8 @@ export const Profile = styled.div`
     height: 400px;
     background: url(${'/my_face.png'}) center center no-repeat;
     background-size: 400px;
+    border-radius: 200px;
+    background-color: #00000030;
     transition: background 0.3s ease-out;
     overflow: hidden;
 

@@ -17,9 +17,7 @@ const WhoAmI: React.FC = () => {
             <LeftBlankBlock />
             <IAmWrapper>
                 <MyImage>
-                    <div>
-                        <Profile />
-                    </div>
+                    <Profile />
                 </MyImage>
                 <MYDes>
                     <h2>Who is Hyun(xtring)</h2>
