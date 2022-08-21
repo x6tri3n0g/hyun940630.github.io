@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import MY_FACE_IMG from 'assets/images/my_face.png';
+
 export const WhoAmIWrapper = styled.div`
     position: relative;
     width: 100%;
@@ -50,18 +52,27 @@ export const MyImage = styled.div`
     border-radius: 255px;
     background-color: #060f3a;
     z-index: 2;
-    /* margin-left: -15.39%; */
     margin-right: 32px;
-    span {
-        width: 400px;
-        height: 400px;
-        border-radius: 200px;
-        background-color: #00000075;
+    position: relative;
 
-        img {
-            width: 100%;
-            height: 100%;
-        }
+    div {
+        border-radius: 200px;
+        background-color: #00000030;
+    }
+`;
+
+export const Profile = styled.div<{ imageUrl: string }>`
+    width: 400px;
+    height: 400px;
+    background: url(${'/my_face.png'}) center center no-repeat;
+    background-size: 400px;
+    transition: background 0.3s ease-out;
+    overflow: hidden;
+
+    :hover {
+        background: url(${'/my_face.png'}) center center no-repeat;
+        background-size: 500px;
+        background-color: #ffffff30;
     }
 `;
 

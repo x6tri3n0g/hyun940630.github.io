@@ -4,13 +4,12 @@ import {
     LeftBlankBlock,
     IAmWrapper,
     MyImage,
+    Profile,
     MYDes,
     WhoAmIFigureWrapper,
     WhoAmIFigureCircle,
     WhoAmIFigureVerticalLine,
 } from './Atoms';
-
-import MY_FACE_IMG from 'assets/images/my_face.png';
 
 const WhoAmI: React.FC = () => {
     return (
@@ -18,9 +17,9 @@ const WhoAmI: React.FC = () => {
             <LeftBlankBlock />
             <IAmWrapper>
                 <MyImage>
-                    <span>
-                        <img src={MY_FACE_IMG} alt="MyFace" />
-                    </span>
+                    <div>
+                        <Profile imageUrl="/my_face.png" />
+                    </div>
                 </MyImage>
                 <MYDes>
                     <h2>Who is Hyun(xtring)</h2>
