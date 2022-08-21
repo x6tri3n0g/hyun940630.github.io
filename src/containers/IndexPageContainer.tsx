@@ -1,5 +1,4 @@
 import React from 'react';
-import { PageLayout } from 'components/Atoms';
 import { MainContentsWrapper } from 'components/Home/MainContents/Atoms';
 import TopNavigation from 'components/TopNavigation';
 import Header from 'components/Home/Header';
@@ -10,13 +9,9 @@ import Experience from 'components/Home/MainContents/Experience';
 import Interest from 'components/Home/MainContents/Interest';
 import Footer from 'components/Home/Footer';
 
-interface HomeProps {
-    mode: string;
-}
-
-const Home: React.FC<HomeProps> = ({ mode }: HomeProps) => {
+const IndexPageContainer: React.FC = () => {
     return (
-        <PageLayout mode={mode}>
+        <>
             <TopNavigation />
             <Header />
             <MainContentsWrapper>
@@ -27,8 +22,8 @@ const Home: React.FC<HomeProps> = ({ mode }: HomeProps) => {
                 <Interest />
                 <Footer />
             </MainContentsWrapper>
-        </PageLayout>
+        </>
     );
 };
 
-export default Home;
+export default IndexPageContainer;

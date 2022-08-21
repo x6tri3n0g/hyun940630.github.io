@@ -1,19 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
+
 import './globalStyle.css';
-import Home from 'pages/Home';
+
+import IndexPage from 'pages/IndexPage';
 
 const App: React.FC = () => {
-    const [mode, setMode] = useState('light');
-
-    // const toggleMode = () => {
-    //     if (mode === 'light') {
-    //         setMode('dark');
-    //     } else {
-    //         setMode('light');
-    //     }
-    // };
-
-    return <Home mode={mode} />;
+    return <IndexPage />;
 };
 
 export default App;
