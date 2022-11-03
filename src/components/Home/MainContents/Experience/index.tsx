@@ -101,7 +101,7 @@ const Experience: React.FC = () => {
                 바로가기
               </TextLink>
             </h2>
-            <h3>2020년 12월 - 재직중 | 10개월</h3>
+            <h3>2020년 12월 - 2021년 11월 | 12개월</h3>
             <h3>가벼운 주거/머묾를 위한 서비스 개발</h3>
             <h3>Software Developer</h3>
           </div>
