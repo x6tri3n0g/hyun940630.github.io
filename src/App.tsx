@@ -1,11 +1,7 @@
+import PageContainer from 'containers/IndexPageContainer';
 import React from 'react';
 
-import './globalStyle.css';
 
-import IndexPage from 'pages/IndexPage';
-
-const App: React.FC = () => {
-    return <IndexPage />;
-};
-
-export default App;
+export default function App() {
+    return <PageContainer/>;
+}

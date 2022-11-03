@@ -4,6 +4,8 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "@emotion/react": "^11.10.4",
+        "@emotion/styled": "^11.10.4",
         "@material-ui/core": "^4.11.3",
         "@testing-library/jest-dom": "^5.11.4",
         "@testing-library/react": "^11.1.0",
@@ -12,8 +14,8 @@
         "@types/node": "^12.0.0",
         "@types/react-router-dom": "^5.1.7",
         "@types/styled-components": "^5.1.7",
-        "react": "^17.0.1",
-        "react-dom": "^17.0.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
         "react-scripts": "4.0.2",
         "styled-components": "^5.3.5",
         "styled-normalize": "^8.0.7",
@@ -48,15 +50,18 @@
         ]
     },
     "devDependencies": {
+        "@emotion/babel-plugin": "^11.10.2",
         "@types/react": "^17.0.1",
         "@types/react-dom": "^17.0.0",
         "@typescript-eslint/eslint-plugin": "^4.15.0",
         "@typescript-eslint/parser": "^4.15.0",
         "eslint": "^7.19.0",
         "eslint-config-prettier": "^7.2.0",
+        "eslint-plugin-functional": "^4.3.0",
         "eslint-plugin-prettier": "^3.3.1",
         "eslint-plugin-react": "^7.22.0",
         "gh-pages": "^3.1.0",
-        "prettier": "^2.2.1"
+        "prettier": "^2.2.1",
+        "tslint-config-airbnb": "^5.11.2"
     }
 }

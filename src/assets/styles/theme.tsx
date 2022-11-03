@@ -1,4 +1,4 @@
-import { DefaultTheme } from 'styled-components';
+import type {DefaultTheme} from 'styled-components';
 
 const lightMode: DefaultTheme = {
     basicWidth: '320px',
@@ -18,4 +18,4 @@ const darkMode: DefaultTheme = {
     },
 };
 
-export { lightMode, darkMode };
+export {lightMode, darkMode};
