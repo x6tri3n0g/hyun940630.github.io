@@ -17,7 +17,7 @@ const Container = styled.div`
   color: #16162b;
 `;
 
-export default function PageContainer() {
+export default function ResumePage() {
   return (
     <Container>
       <TopNavigation />

@@ -1,7 +1,5 @@
-import PageContainer from 'containers/IndexPageContainer';
-import React from 'react';
-
+import ResumePage from 'pages/resume';
 
 export default function App() {
-    return <PageContainer/>;
+  return <ResumePage />;
 }
