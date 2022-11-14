@@ -19,7 +19,7 @@ const Container = styled.div`
 
 export default function ResumePage() {
   return (
-    <Container>
+    <Container id="top">
       <TopNavigation />
       <Header />
       <MainContentsWrapper>
