@@ -1,6 +1,6 @@
 # 🚀 xtring's Portfolio
 
-**⚠️ 현재 공사중**
+## Deprecated
 
 > [Go Portfolio](https://hyun940630.github.io)
 
